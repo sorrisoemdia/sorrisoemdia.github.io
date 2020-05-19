@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+  }
+
+  .conteudo{
+      margin: 10% 0 10% 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #264653;
+    transition: .5s ease;
+  }
+  a:hover {
+    color: #2a9d8f;
+  }
+  
+  .form {
+    background-color: #eef4f7;
+    padding: 40px;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 4px;
+    transition-duration: 70ms;
+  }
+  
+  .tab-group {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin: auto;
+    max-width: 600px;
+  }
+  .tab-group:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .tab-group li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    background: #264653;
+    color: #fff;
+    font-size: 20px;
+    float: left;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 200ms;
+  }
+  .tab-group li a:hover {
+    background: #e9c46a;
+    color: #ffffff;
+  }
+  .tab-group .active a {
+    background: #2a9d8f;
+    color: #ffffff;
+  }
+  
+  .tab-content > div:last-child {
+    display: none;
+  }
+  
+  #login h3, #signup h3, #esquecisenha h3 {
+    color: #264653;
+    text-align: center;
+    font-weight: 600;
+    margin: 0 0 40px;
+  }
+  
+  label {
+    color: #264653;
+    pointer-events: none;
+    font-size: 17px;
+  }
+  label .req {
+    margin: 2px;
+    color: red;
+  }
+  
+  label.highlight {
+    color: #000;
+    margin-top:-10px;
+  }
+  
+  input {
+    font-size: 17px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 7px;
+    border: 1px solid #264653;
+    color: #264653;
+    transition: border-color .25s ease, box-shadow .25s ease;
+  }
+  input:focus{
+    outline: 0;
+    border-color: #000;
+  }
+  
+  .field-wrap {
+    position: relative;
+    margin-bottom: 40px;
+  }
+  
+  .top-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .top-row > div {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+  }
+  .top-row > div:last-child {
+    margin: 0;
+  }
+  
+  .button {
+    border: none;
+    font-weight: 600;
+    background: #2a9d8f ;
+    color: #fff;
+    transition-duration: 100ms;
+    padding: 10px;
+  }
+
+  .button:hover, .button:focus {
+    background: #e9c46a;
+  }
+  
+  .button-block {
+    display: block;
+    width: 100%;
+  }
+  
+  .forgot {
+    margin-top: 0px;
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  
+  #esquecisenhatab{
+    background: #264653;
+  }
+
+  #esquecisenha p{
+    text-align: center;
+  }

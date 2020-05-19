@@ -1,0 +1,461 @@
+body{
+    color: #264653;
+}
+
+#entrar{
+    background-color: #264653;
+    border-radius: 5px;
+    color: #2a9d8f;
+}
+
+#entrar:hover{
+    transform: rotateZ(-0deg);
+    opacity: 0.7;
+}
+
+.receber-conteudo{
+    padding-top: 70px;
+}
+
+.navigation-clean.navbar .navbar-nav .nav-link:focus {
+    background-color: #2a9d8f;
+    color: #264653;
+}
+
+.alerta-consulta{
+    background-color: #b3e0a0;
+    border-radius: 5px;
+    color: #264653;
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+.paragrafo-alerta{
+    color: #ec6060;
+    display: inline;
+}
+
+.alerta-consulta p{
+    display: inline;
+    margin: 0;
+}
+
+.conta-atual-section, .editar-conta-section{
+    display: inline-block;
+    vertical-align: top;
+    width: 49.80%;
+}
+
+.titulo-section{
+    background-color: #264653;
+    color: #eef4f7;
+    padding: 10px;
+    text-align: center;
+}
+
+.titulo-section h5{
+    margin: 0;
+}
+
+.conta-atual, .editar-conta{
+    background-color: #eef4f7;
+    padding: 20px;
+    height: 507px;
+}
+
+.conta-atual{
+    text-align: center;
+}
+
+.conta-atual h5{
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.conta-atual p{
+    margin: 0;
+}
+
+#texto-final{
+    margin-bottom: 30px;
+}
+
+.profile-image{
+    border-radius: 120px;
+    height: 170px;
+    margin-top: 30px;
+}
+
+.formulario{
+    margin: auto;
+    width: 87%;
+}
+
+.editar-conta input{
+    padding: 5px;
+    width: 100%;
+}
+
+.centralizar-botao{
+    margin: auto;
+    width: 100%;
+}
+
+.botao-principal, .botao-limpar{
+    border-radius: 5px;
+    border-style: none;
+    color: #eef4f7;
+    font-weight: 600;
+    margin-top: 15px;
+    padding: 10px;
+    transition-duration: 150ms;
+    width: 137px;
+}
+
+.botao-principal{
+    background-color: #2a9d8f;
+}
+
+.botao-principal:hover{
+    background-color: #1d7c71;
+}
+
+.botao-limpar{
+    background-color: #ec6060;
+}
+
+.botao-limpar:hover{
+    background-color: #ca4747;
+}
+
+.agendar-consulta-section{
+    background-color: #eef4f7;
+}
+
+.agendar-consulta{
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 50%;
+}
+
+.agendar-consulta select, input{
+    padding: 5px;
+    width: 100%;
+}
+
+label[for=data-consulta], label[for=horario-consulta]{
+    margin-top: 20px;
+}
+
+.botao-agendar{
+    margin-top: 50px;
+    width: 50%;
+}
+
+.centralizar{
+    text-align: center;
+}
+
+.produtos-tratamentos{
+    background-color: #eef4f7;
+    padding-bottom: 50px;
+}
+
+table{
+    background-color: #eef4f7;
+    width: 100%;
+}
+
+table th, table td{
+    color: #264653;
+}
+
+input[type=checkbox]{
+    transform: scale(1.5);
+}
+
+.footer-dark{
+    margin-top: 70px;
+    padding: 50px 0;
+    color: #f0f9ff;
+    background-color: #264653;
+}
+
+.footer-dark .item.text {
+    margin-bottom: 36px;
+}
+
+.footer-dark h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.footer-dark .item.text p {
+    opacity: .6;
+    margin-bottom: 0;
+}
+
+.footer-dark ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: .6;
+}
+
+.footer-dark .copyright {
+    padding-top: 24px;
+    opacity: .3;
+    font-size: 13px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer-dark ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link:focus {
+    transform: rotateZ(-0deg);
+}
+
+tr td a{
+    color: #264653;
+    text-decoration: none;
+}
+
+.botao-adicionar{
+    width: 27%;
+}
+
+.consultas-atender-section{
+    background-color: #eef4f7;
+}
+
+.consultas-atender-section section{
+    padding: 30px;
+}
+
+.botao-excluirselec{
+    width: 33%;
+}
+
+.fa-edit{
+    margin-right: 10px;
+}
+
+.enviar-mensagem{
+    background-color: #eef4f7;
+    padding: 13px;
+    width: 27%;
+    display: inline-block;
+}
+
+.lista-email{
+    margin: 0;
+    padding: 0;
+}
+
+.lista-email li{
+    list-style: none;
+    padding: 0;
+}
+
+.lista-email li a{
+    color: #264653;
+    display: block;
+    font-weight: 600;
+    padding: 7px;
+    padding-left: 23px;
+    text-decoration: none;
+    transition-duration: 150ms;
+}
+
+.lista-email li a:hover{
+    background-color: #c8d3d8;
+}
+
+.lista-email li a i{
+    margin-right: 15px;
+}
+
+.lista-contatos{
+    margin-top: 17px;
+}
+
+.lista-contatos li a{
+    padding: 3px;
+    padding-left: 23px;
+    text-decoration: none;
+}
+
+.mensagem{
+    background-color: #eef4f7;
+    display: inline-block;
+    padding: 13px;
+    vertical-align: top;
+    width: 72.60%;
+}
+
+.mensagem textarea{
+    display: block;
+    height: 180px;
+    padding: 10px;
+    resize: none;
+    width: 100%;
+}
+
+.mensagem label{
+    font-weight: 600;
+}
+
+.enviar-mensagem-btn{
+    width: 17%;
+}
+
+.apagar-mensagem-btn{
+    width: 17%;
+}
+
+.mensagem, .enviar-mensagem{
+    height: 450px;
+}
+
+.enviar-mensagem-section{
+    background-color: #eef4f7;
+}
+
+#agenda{
+    background-color: #eef4f7;
+    padding: 13px;
+}
+
+.oculta-consulta{
+    background-color: #fff;
+}
+
+.escolher-dentista{
+    margin: 15px;
+    margin-bottom: 20px;
+}
+
+.escolher-dentista form{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    width: 70%;
+}
+
+.escolher-dentista form select{
+    padding: 5px;
+}
+
+.calendario-dentista-section{
+    background-color: #eef4f7;
+}
+
+@media screen and (max-width: 1199px){
+    .conta-atual-section, .editar-conta-section{
+        display: block;
+        width: 100%;
+    }
+
+    .editar-conta-section{
+        padding-top: 70px;
+    }
+
+    .enviar-mensagem{
+        width: 27%;
+    }
+
+    .mensagem{
+        width: 72.53%;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .agendar-consulta{
+        width: 90%;
+    }
+
+    .enviar-mensagem{
+        width: 37%;
+    }
+
+    .mensagem{
+        width: 62.36%;
+    }
+
+    .enviar-mensagem-btn, .apagar-mensagem-btn{
+        width: 27%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .agendar-consulta{
+        width: 100%;
+    }
+
+    .footer-dark{
+        text-align: center;
+    }
+
+    .footer-dark h3 {
+        margin-top: 20px;
+    }
+
+    .navigation-clean.navbar-light .navbar-nav .nav-link:hover {
+        transform: rotateZ(-0deg);
+    }
+
+    .dropdown, .dropleft, .dropright, .dropup {
+        margin-left: 15px;  
+    }
+
+    .botao-adicionar{
+        width: 100%;
+    }
+
+    .botao-excluirselec{
+        width: 100%;
+    }
+
+    .lista-email, .lista-contatos, .enviar-mensagem, .mensagem{
+        width: 100%;
+    }
+
+    .cent{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 495px){
+    .fc-button-group{
+        display: grid;
+    }
+}
+
+@media screen and (max-width: 401px){
+    .botao-principal, .botao-limpar{
+        width: 50%;
+    }
+
+    .botao-adicionar{
+        width: 100%;
+    }
+
+    .botao-excluirselec{
+        width: 100%;
+    }
+
+    .enviar-mensagem-btn, .apagar-mensagem-btn{
+        width: 32%;
+    }
+}

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Sorriso em Dia - Clinica Odontológica</title>
+    <meta name="twitter:description" content="Nós contamos com diversos tratamentos, todos realizados por profissionais totalmente qualificados para o trabalho. A clinica é localizada em São Paulo - SP.">
+    <meta property="og:title" content="Sorriso em Dia - Clinica Odontológica">
+    <meta property="og:type" content="website">
+    <meta name="description" content="Nós contamos com diversos tratamentos, todos realizados por profissionais totalmente qualificados para o trabalho. A clinica é localizada em São Paulo - SP.">
+    <meta property="og:description" content="Nós contamos com diversos tratamentos, todos realizados por profissionais totalmente qualificados para o trabalho. A clinica é localizada em São Paulo - SP.">
+    <meta name="twitter:title" content="Sorriso em Dia - Clinica Odontológica">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="180x180" href="../assets/img/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../assets/img/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="../assets/img/favicon/android-chrome-512x512.png">
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="../assets/css/swiper.min.css">
+    <link rel="stylesheet" href="../assets/css/styles.min.css">
+    <link rel="stylesheet" href="../assets/css/remaster.css">
+    <link rel="stylesheet" href="../assets/css/loginform.css">
+</head>
+
+<body>
+  <script>
+    window.onload = function(){
+      var btn = document.getElementById("btnLogar");
+      btn.onclick = function(){
+        var cpf = document.getElementById("cpf-login").value;
+        var senha = document.getElementById("senha-login").value;
+
+        if(cpf == "12345678900" && senha == "odonto"){
+          window.open("https://sorrisoemdia.github.io/painel");
+        } else{
+          
+        }
+      }
+    }
+  </script>
+
+    <div id="navbar-section" class="fixed-top">
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+            <div class="container"><a href="index.html"><img id="logo" src="../assets/img/logo/logo.png"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse"
+                    id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="../index.html#a-clinica">A Clínica</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="../index.html#nossa-equipe">Nossa Equipe</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="../index.html#tratamentos">Tratamentos</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="../index.html#contato">Contato</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="index.html" id="entrar">Entrar</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+      <div class="conteudo">
+      <ul class="tab-group">
+        <li class="tab active"><a href="#login">Login</a></li>
+        <li class="tab"><a href="#signup">Cadastro</a></li>
+      </ul>
+
+      <div class="form">
+        <div class="tab-content">
+          <div id="login">   
+            <h3>Iniciar sessão</h3>
+            
+            <form action="" method="post">
+            
+             <div class="field-wrap">
+              <label>
+                CPF:<span class="req">*</span>
+              </label>
+              <input type="text" id="cpf-login" name="cpf-login" maxlength="11" class="border rounded" placeholder="Digite seu CPF aqui" required autocomplete="off" />
+             </div>
+            
+            <div class="field-wrap">
+              <label>
+                Senha:<span class="req">*</span>
+              </label>
+              <input type="password" name="senha-login" id="senha-login" maxlength="30" class="border rounded" placeholder="Digite sua senha aqui" required autocomplete="off"/>
+            </div>
+            
+            <p class="forgot"><a href="../recuperar-senha/index.html">Esqueceu sua senha?</a></p>
+            
+            <button class="button button-block" id="btnLogar">Entrar</button>
+            
+            </form>
+  
+          </div>
+
+          <div id="signup">   
+            <h3>Criar conta</h3>
+            
+            <form action="index.html" method="post">
+            
+            <div class="top-row">
+              <div class="field-wrap">
+                <label>
+                  Nome:<span class="req">*</span>
+                </label>
+                <input type="text" name="nome" id="nome" maxlength="30" class="border rounded" placeholder="Digite seu nome aqui"  required autocomplete="off" />
+              </div>
+          
+              <div class="field-wrap">
+                <label>
+                  Sobrenome:<span class="req">*</span>
+                </label>
+                <input type="text" name="sobrenome" id="sobrenome" maxlength="200" class="border rounded" placeholder="Digite seu sobrenome aqui" required autocomplete="off"/>
+              </div>
+            </div>
+
+            <div class="top-row">
+              <div class="field-wrap">
+                <label>
+                  CPF:<span class="req">*</span>
+                </label>
+                <input type="text" id="cpf" name="cpf" maxlength="11" class="border rounded" placeholder="Digite seu CPF aqui" required autocomplete="off" />
+              </div>
+          
+              <div class="field-wrap">
+                <label>
+                  Nascimento:<span class="req">*</span>
+                </label>
+                <input type="date" name="nascimento" id="nascimento" class="border rounded" required autocomplete="off"/>
+              </div>
+            </div>
+
+            <div class="field-wrap">
+              <label>
+                RG:<span class="req">*</span>
+              </label>
+              <input type="text" name="rg" id="rg" maxlength="9" class="border rounded" placeholder="Digite seu RG aqui" required autocomplete="off"/>
+            </div>
+  
+            <div class="field-wrap">
+              <label>
+                E-mail:<span class="req">*</span>
+              </label>
+              <input type="email" name="email-cadastro" id="email-cadastro" class="border rounded" placeholder="Digite seu e-mail aqui" required autocomplete="off"/>
+            </div>
+
+            <div class="top-row">
+              <div class="field-wrap">
+                <label>
+                  Senha:<span class="req">*</span>
+                </label>
+                <input type="password" name="senha-cadastro" id="senha-cadastro" maxlength="30" class="border rounded" placeholder="Digite sua senha aqui" required autocomplete="off"/>
+              </div>
+
+              <div class="field-wrap">
+                <label>
+                  Confirmar senha:<span class="req">*</span>
+                </label>
+                <input type="password" name="confirmarSenha" id="confirmarSenha" maxlength="30" class="border rounded" placeholder="Digite sua senha novamente" required autocomplete="off"/>
+              </div>
+            </div>
+            
+            <div class="field-wrap">
+              <label>
+                Telefone:<span class="req">*</span>
+              </label>
+              <input type="text" name="telefone" id="telefone" maxlength="11" class="border rounded" placeholder="Digite o número do seu telefone aqui" required autocomplete="off"/>
+            </div>
+            
+            <button type="submit" class="button button-block">Criar conta</button>
+            
+            </form>
+  
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    <div class="footer-dark">
+      <footer>
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-6 col-md-3 item">
+                      <h3>Navegação</h3>
+                      <ul>
+                          <li><a href="#a-clinica" class="scroll">A Clínica</a></li>
+                          <li><a href="#nossa-equipe" class="scroll">Nossa Equipe</a></li>
+                          <li><a href="#tratamentos" class="scroll">Tratamentos</a></li>
+                          <li><a href="#contato" class="scroll">Contato</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-3 item">
+                      <h3><br></h3>
+                      <ul>
+                          <li><a href="entrar/index.html" target="_blank">Entrar</a></li>
+                          <li><a href="entrar/index.html" target="_blank">Cadastrar-se</a></li>
+                          <li><a href="recuperar-senha/index.html" target="_blank">Recuperar senha</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-md-6 item text">
+                      <h3>Sorriso em Dia</h3>
+                      <p>A loja é aberta às 08:00h e fechada às 20:00h<br></p>
+                      <p>Rua Bernardo Magalhães, 137 - Tatuapé, São Paulo - SP<br></p>
+                      <p>Trabalhe conosco. Tel: 27418392<br></p>
+                  </div>
+              </div>
+              <p class="copyright">Sorriso em Dia © 2020, Todos os direitos reservados</p>
+          </div>
+      </footer>
+    </div>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script>
+        jQuery(document).ready(function($) { 
+            $(".scroll").click(function(event){        
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top}, 600);
+           });
+        });
+    </script>
+    
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="../assets/js/script.min.js"></script>
+    <script  src="../assets/js/index.js"></script>
+</body>
+
+</html>

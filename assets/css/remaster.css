@@ -1,0 +1,83 @@
+#entrar{
+    background-color: #264653;
+    border-radius: 5px;
+    color: #2a9d8f;
+}
+
+#entrar:hover{
+    transform: rotateZ(-0deg);
+    opacity: 0.7;
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link{
+    margin-right: 6px;
+    border-radius: 5px;
+}
+
+.mdcdesc{
+    height: 100px;
+}
+
+.agenda-consulta{
+    color: #2a9d8f;
+    transition-duration: 100ms;
+}
+
+.agenda-consulta:hover{
+    color: #264653;
+}
+
+.nav-link.active{
+    color: #264653 !important;
+    background-color: #e9c46a !important;
+}
+
+#marcar-consulta{
+    background-color: #2a9d8f;
+    border-radius: 3px;
+    color: #fff;
+    display: block;
+    padding: 13px;
+    transition-duration: 100ms;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+#marcar-consulta:hover{
+    background-color: #e9c46a;
+}
+
+.desc-tratamento{
+    height: 150px;
+}
+
+#agendar-consulta {
+    background-color: #2a9d8f;
+    border-radius: 3px;
+    color: #fff;
+    padding: 13px;
+    transition-duration: 100ms;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.agenda-consulta{
+    margin: auto;
+    width: 190px;
+}
+
+@media screen and (max-width: 900px){
+    .navigation-clean.navbar-light .navbar-nav .nav-link{
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .navigation-clean.navbar-light .navbar-nav .nav-link:focus, .navigation-clean.navbar-light .navbar-nav .nav-link:hover {
+        background-color:#e9c46a;
+        transform:rotateZ(-0deg);
+    }
+    #logo{
+        height: 43px;
+    }
+}

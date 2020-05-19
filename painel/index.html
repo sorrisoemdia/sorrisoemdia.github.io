@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Sorriso em Dia - Userboard</title>
+    <meta name="twitter:title" content="Sorriso em Dia - Userboard">
+    <meta name="twitter:card" content="summary">
+    <meta property="og:description" content="Nós contamos com diversos tratamentos, todos realizados por profissionais totalmente qualificados para o trabalho. A clinica é localizada em São Paulo - SP.">
+    <meta name="description" content="Nós contamos com diversos tratamentos, todos realizados por profissionais totalmente qualificados para o trabalho. A clinica é localizada em São Paulo - SP.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sorriso em Dia - Userboard">
+    <meta name="twitter:description" content="Nós contamos com diversos tratamentos, todos realizados por profissionais totalmente qualificados para o trabalho. A clinica é localizada em São Paulo - SP.">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="180x180" href="assets/img/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/favicon/android-chrome-512x512.png">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="assets/css/remaster.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div>
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean fixed-top">
+            <div class="container"><a href="#conta-atual" class="scroll"><img id="logo" src="assets/img/logo/logo.png"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse"
+                    id="navcol-1">
+                    <div class="dropdown"><button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">Paciente</button>
+                        <div class="dropdown-menu" role="menu">
+                            <a class="dropdown-item" role="presentation" href="dentista.html">Dentista</a>
+                            <a class="dropdown-item" role="presentation" href="gerente.html">Gerente</a>
+                            <a class="dropdown-item" role="presentation" href="secretaria.html">Secretária</a>
+                        </div>
+                    </div>
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item" role="presentation"><a class="nav-link scroll" href="#agendar-consulta">Agendamento</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link scroll" href="#consultas-marcadas">Consultas</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link scroll" href="#produtos-tratamentos">Produtos</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="../index.html" id="entrar">Sair</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container receber-conteudo">
+        <div class="alerta-consulta" id="conta-atual">
+            <p><strong>Você tem uma consulta marcada para o dia <div class="paragrafo-alerta">21/05/2020</div> às <div class="paragrafo-alerta">17:30</div>. Local: <div class="paragrafo-alerta">Tatuapé - SP</div></strong></p>
+        </div>
+    </div>
+
+    <div class="container receber-conteudo">
+        <section class="conta-atual-section">
+            <div class="titulo-section">
+                <h5>Minha conta</h5>
+            </div>
+
+            <div class="conta-atual">
+                <img src="assets/img/profile/img.jpg" class="profile-image">
+                <h5>Arthur Read Cole</h5>
+                <p><strong>E-mail:</strong> falacomigo@meu.com.br</p>
+                <p><strong>Nascimento:</strong> 17/07/1997</p>
+                <p><strong>Endereço:</strong> Rua responde aí meu, 731</p>
+                <p><strong>CPF:</strong> 384.194.199-73</p>
+                <p id="texto-final"><strong>RG:</strong> 16.269.540-8</p>
+            </div>
+        </section>
+
+        <section class="editar-conta-section">
+            <div class="titulo-section">
+                <h5>Editar conta</h5>
+            </div>
+
+            <div class="editar-conta">
+                <form class="formulario" action="#" method="POST">
+                    <label for=""><strong>Nome:</strong></label><br>
+                    <input type="text" id="nome-conta" name="nome-conta" class="border rounded" placeholder="Digite aqui novo nome desejado"><br>
+
+                    <label for=""><strong>E-mail:</strong></label><br>
+                    <input type="email" id="email-conta" name="email-conta" class="border rounded" placeholder="Digite aqui o novo e-mail desejado"><br>
+
+                    <label for=""><strong>Data de Nascimento:</strong></label><br>
+                    <input type="date" id="email-conta" name="email-conta" class="border rounded"><br>
+
+                    <label for=""><strong>Endereço:</strong></label><br>
+                    <input type="text" id="email-conta" name="email-conta" class="border rounded" placeholder="Digite o novo endereço desejado"><br>
+
+                    <label for=""><strong>CPF:</strong></label><br>
+                    <input type="text" maxlength="11" id="email-conta" name="email-conta" class="border rounded" placeholder="Digite o novo CPF desejado"><br>
+
+                    <label for=""><strong>RG:</strong></label><br>
+                    <input type="text" maxlength="9" id="email-conta" name="email-conta" class="border rounded" placeholder="Digite o novo RG desejado"><br>
+
+                    <div class="centralizar-botao" id="agendar-consulta">
+                        <button class="botao-principal float-left">Salvar</button>
+                        <button class="botao-limpar float-right">Limpar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <div class="container receber-conteudo">
+        <section class="agendar-consulta-section">
+            <div class="titulo-section">
+                <h5>Agendar Consulta</h5>
+            </div>
+
+            <div class="agendar-consulta">
+                <form action="#" method="POST">
+                    <label for=""><strong>Escolha o dentista:</strong></label><br>
+                    <select name="tipo-atendimento" id="tipo-atendimento" class="border rounded">
+                        <option value="atendimento-fiscal">Dr. Érico de Oliveira Soares</option>
+                        <option value="atendimento-pacional">Dra. Fernanda Cavanha Rossi</option>
+                        <option value="atendimento-marcal">Dra. Alessandra de Lima Rocha</option>
+                    </select><br>
+
+                    <div class="row">
+                        <div class="col">
+                            <label for="data-consulta"><strong>Escolha a data:</strong></label><br>
+                            <input type="date" id="data-consulta" name="data-consulta" class="border rounded">
+                        </div>
+
+                        <div class="col">
+                            <label for="horario-consulta"><strong>Horário:</strong></label><br>
+                            <input type="time" min="08:00" max="20:00" id="horario-consulta" name="horario-consulta" class="border rounded">
+                        </div>
+                    </div>
+
+                    <div class="centralizar" id="consultas-marcadas">
+                        <button class="botao-principal botao-agendar">Agendar consulta</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <div class="container receber-conteudo">
+        <section class="consultas-marcadas-section">
+            <div class="titulo-section">
+                <h5>Consultas marcadas</h5>
+            </div>
+
+            <div class="consultas-marcadas">
+                <table class="table table-striped table-responsive-sm">
+                    <thead>
+                        <tr>
+                            <th scope="col">Tipo</th>
+                            <th scope="col">Data</th>
+                            <th scope="col">Horário</th>
+                            <th scope="col">Local</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr id="produtos-tratamentos">
+                            <td>Dr. Érico de Oliveira Soares</td>
+                            <td>21/05/2020</td>
+                            <td>17:30</td>
+                            <td>Tatuapé - SP</td>
+                        </tr>
+
+                        <tr>
+                            <td>Dra. Fernanda Cavanha Rossi</td>
+                            <td>27/05/2020</td>
+                            <td>14:50</td>
+                            <td>Tatuapé - SP</td>
+                        </tr>
+
+                        <tr>
+                            <td>Dra. Alessandra de Lima Rocha</td>
+                            <td>31/05/2020</td>
+                            <td>11:00</td>
+                            <td>Tatuapé - SP</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+
+    <div class="container receber-conteudo">
+        <section class="produtostratamentos-section">
+            <div class="titulo-section">
+                <h5>Produtos e Tratamentos</h5>
+            </div>
+
+            <div class="produtos-tratamentos">
+                <table class="table table-striped table-responsive-sm">
+                    <thead>
+                        <tr>
+                            <th scope="col">⠀</th>
+                            <th scope="col">Nome do Produto</th>
+                            <th scope="col">Unid. Venda</th>
+                            <th scope="col">Unid. Estoque</th>
+                            <th scope="col">Vencimento</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th><input type="checkbox"></th>
+                            <td>Implante</td>
+                            <td>437</td>
+                            <td>1823</td>
+                            <td>37/07/2023</td>
+                        </tr>
+
+                        <tr>
+                            <th><input type="checkbox"></th>
+                            <td>Prótese</td>
+                            <td>315</td>
+                            <td>4156</td>
+                            <td>12/03/2022</td>
+                        </tr>
+
+                        <tr>
+                            <th><input type="checkbox"></th>
+                            <td>Endodontia</td>
+                            <td>722</td>
+                            <td>4261</td>
+                            <td>13/05/2021</td>
+                        </tr>
+
+                        <tr>
+                            <th><input type="checkbox"></th>
+                            <td>Ortodontia</td>
+                            <td>125</td>
+                            <td>8453</td>
+                            <td>17/09/2024</td>
+                        </tr>
+
+                        <tr>
+                            <th><input type="checkbox"></th>
+                            <td>Dentística</td>
+                            <td>621</td>
+                            <td>8342</td>
+                            <td>31/12/2025</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row"><input type="checkbox"></th>
+                            <td>Cirurgia</td>
+                            <td>724</td>
+                            <td>3145</td>
+                            <td>15/12/2022</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="centralizar">
+                    <button class="botao-principal botao-agendar">Efetuar compra</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Navegação</h3>
+                        <ul>
+                            <li><a href="" class="scroll">Home</a></li>
+                            <li><a href="" class="scroll">Agendamento</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3><br></h3>
+                        <ul>
+                            <li><a href="" class="scroll">Consultas</a></li>
+                            <li><a href="" class="scroll">Produtos</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Sorriso em Dia</h3>
+                        <p>A loja é aberta às 08:00h e fechada às 20:00h<br></p>
+                        <p>Rua Bernardo Magalhães, 137 - Tatuapé, São Paulo - SP<br></p>
+                        <p>Trabalhe conosco. Tel: 27418392<br></p>
+                    </div>
+                </div>
+                <p class="copyright">Sorriso em Dia © 2020, Todos os direitos reservados</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script>
+        jQuery(document).ready(function($) { 
+            $(".scroll").click(function(event){        
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top}, 600);
+           });
+        });
+    </script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
